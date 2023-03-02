@@ -1,11 +1,11 @@
 {
-  "name": "steam-totp-action",
+  "name": "totp-generator-action",
   "version": "1.0.0",
   "description": "GitHub action that generates Steam auth codes for use in actions.",
   "main": "dist/index.js",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "steam-totp": "^2.1.2"
+    "totp-generator": "^0.0.14"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.34.0"
@@ -16,17 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CyberAndrii/steam-totp.git"
+    "url": "git+https://github.com/nknguyengl/totp-generator.git"
   },
   "keywords": [
-    "steamcmd",
-    "steam",
     "totp"
   ],
-  "author": "Andrii Vitiv",
+  "author": "Khai Nguyen Nguyen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CyberAndrii/steam-totp/issues"
+    "url": "https://github.com/nknguyengl/totp-generator/issues"
   },
-  "homepage": "https://github.com/CyberAndrii/steam-totp#readme"
+  "homepage": "https://github.com/nknguyengl/totp-generator#readme"
 }
